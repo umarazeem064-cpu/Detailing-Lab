@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detailing Lab | Luxury Car Detailing, 9H Ceramic Coating &amp; PPF Studio — Karachi</title>
+  <meta name="description" content="Detailing Lab in Gulshan-e-Iqbal, Karachi: Premier 9H ceramic coating, multi-stage paint correction, self-healing PPF wrapping, and deep interior detailing. Rated 4.6★ on Google." />
+  <meta property="og:title" content="Detailing Lab — Car Detailing &amp; 9H Ceramic Coating Studio, Karachi" />
+  <meta property="og:description" content="Precision multi-stage paint correction, 9H ceramic protection, and self-healing PPF on Rashid Minhas Road, Gulshan-e-Iqbal, Karachi." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#09090B" />
+
+  <!-- Google Fonts: Outfit (Display), Plus Jakarta Sans (Body), JetBrains Mono (Tabular Numerals) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via Play CDN (Configured for class-based Dark/Light Mode) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Outfit', 'system-ui', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            obsidian: {
+              950: '#09090B',
+              900: '#111215',
+              850: '#16181D',
+              800: '#1E2028',
+              700: '#2A2D38',
+            },
+            gold: {
+              300: '#F2D675',
+              400: '#E5B84B',
+              500: '#D4AF37',
+              600: '#A68116',
+              700: '#85650C',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Base typography & optical rendering */
+    html {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, .font-display {
+      font-family: 'Outfit', system-ui, sans-serif;
+      text-wrap: balance;
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Dark mode light-text optical compensation */
+    html.dark body {
+      letter-spacing: 0.005em;
+    }
+
+    /* Preloader transition */
+    #preloader {
+      transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #preloader.loaded {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    @keyframes progressSweep {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(0%); }
+    }
+    .animate-sweep {
+      animation: progressSweep 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    /* Before/After comparison slider cursor & touch protection */
+    .ba-container {
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: pan-y;
+    }
+
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-zinc-50 text-zinc-900 dark:bg-obsidian-950 dark:text-zinc-100 transition-colors duration-200 selection:bg-gold-500/30 selection:text-gold-300">
+
+  <!-- =====================================================================
+       1. SLEEK AUTOMOTIVE PRELOADER
+       ===================================================================== -->
+  <div id="preloader" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-obsidian-950 text-zinc-100" aria-hidden="true">
+    <div class="flex flex-col items-center gap-5 px-6">
+      <!-- Precision Shield Emblem SVG -->
+      <svg class="w-12 h-12 text-gold-400" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 4L40 10.5V23.2C40 33.4 33.1 42.1 24 44.8C14.9 42.1 8 33.4 8 23.2V10.5L24 4Z" stroke="currentColor" stroke-width="2" />
+        <path d="M16 26.5L22 18L26.5 23.5L32 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <div class="text-center">
+        <p class="font-display text-lg font-semibold tracking-tight text-white">Detailing Lab</p>
+        <p class="text-xs text-zinc-400 mt-1">Gulshan-e-Iqbal · Karachi</p>
+      </div>
+      <div class="w-44 h-0.5 bg-zinc-800 overflow-hidden rounded-full">
+        <div class="h-full w-full bg-gold-400 animate-sweep"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       2. TOP NAVIGATION HEADER (3-ZONE CONTRACT + UTILITY CONTROLS)
+       ===================================================================== -->
+  <header class="sticky top-0 z-40 h-16 border-b border-zinc-200/80 dark:border-zinc-800/80 bg-white/90 dark:bg-obsidian-950/90 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 lg:gap-8">
+
+      <!-- Zone 1: Clean Single-Line Brand Wordmark -->
+      <a href="#home" class="font-display text-lg sm:text-xl font-bold tracking-tight text-zinc-950 dark:text-white whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 rounded-sm">
+        Detailing Lab
+      </a>
+
+      <!-- Zone 2: Single-Line Navigation Links -->
+      <nav aria-label="Primary navigation" class="hidden lg:flex items-center gap-7 text-sm font-medium text-zinc-600 dark:text-zinc-300">
+        <a href="#services" data-i18n="nav_services" class="hover:text-zinc-950 dark:hover:text-gold-400 transition-colors whitespace-nowrap shrink-0 py-1">Services</a>
+        <a href="#packages" data-i18n="nav_packages" class="hover:text-zinc-950 dark:hover:text-gold-400 transition-colors whitespace-nowrap shrink-0 py-1">Packages</a>
+        <a href="#comparison" data-i18n="nav_comparison" class="hover:text-zinc-950 dark:hover:text-gold-400 transition-colors whitespace-nowrap shrink-0 py-1">Before &amp; After</a>
+        <a href="#reviews" data-i18n="nav_reviews" class="hover:text-zinc-950 dark:hover:text-gold-400 transition-colors whitespace-nowrap shrink-0 py-1">Reviews</a>
+        <a href="#location" data-i18n="nav_location" class="hover:text-zinc-950 dark:hover:text-gold-400 transition-colors whitespace-nowrap shrink-0 py-1">Location &amp; Map</a>
+      </nav>
+
+      <!-- Zone 3: Language, Currency, Theme Toggle, WhatsApp & Primary CTA -->
+      <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
+        <!-- Language Switcher -->
+        <label for="lang-select" class="sr-only">Language</label>
+        <select id="lang-select" aria-label="Select language" class="h-9 px-2 text-xs font-medium rounded-md border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-obsidian-900 text-zinc-800 dark:text-zinc-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 cursor-pointer">
+          <option value="en">EN</option>
+          <option value="ur">UR · اردو</option>
+          <option value="ar">AR · عربي</option>
+          <option value="es">ES</option>
+        </select>
+
+        <!-- Currency Switcher -->
+        <label for="currency-select" class="sr-only">Currency</label>
+        <select id="currency-select" aria-label="Select currency" class="h-9 px-2 text-xs font-mono font-medium rounded-md border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-obsidian-900 text-zinc-800 dark:text-zinc-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 cursor-pointer">
+          <option value="PKR">PKR ₨</option>
+          <option value="USD">USD $</option>
+          <option value="GBP">GBP £</option>
+          <option value="EUR">EUR €</option>
+          <option value="AED">AED د.إ</option>
+        </select>
+
+        <!-- Dark / Light Mode Toggle -->
+        <button id="theme-toggle" type="button" aria-label="Toggle dark and light theme" class="h-9 w-9 inline-flex items-center justify-center rounded-md border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-obsidian-900 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-gold-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 shrink-0">
+          <svg id="icon-sun" class="w-4 h-4 hidden dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg id="icon-moon" class="w-4 h-4 block dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <!-- WhatsApp Quick Chat -->
+        <a href="https://wa.me/923302689508?text=Assalam-o-Alaikum%20Detailing%20Lab!%20I%20would%20like%20to%20inquire%20about%20a%20detailing%20slot." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="hidden sm:inline-flex h-9 px-3 items-center gap-1.5 rounded-md border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-obsidian-900 text-xs font-medium text-zinc-800 dark:text-zinc-200 hover:border-emerald-600/50 hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors whitespace-nowrap shrink-0">
+          <svg class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- Primary Action CTA -->
+        <a href="#booking" data-i18n="nav_book" class="h-9 px-4 inline-flex items-center justify-center rounded-md bg-gold-600 hover:bg-gold-500 text-white dark:bg-gold-500 dark:hover:bg-gold-400 dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500">
+          Book Slot
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" class="lg:hidden h-9 w-9 inline-flex items-center justify-center rounded-md border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav" class="hidden lg:hidden border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 px-4 py-3 space-y-1">
+      <a href="#services" data-i18n="nav_services" class="block py-2 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-gold-600 dark:hover:text-gold-400">Services</a>
+      <a href="#packages" data-i18n="nav_packages" class="block py-2 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-gold-600 dark:hover:text-gold-400">Packages</a>
+      <a href="#comparison" data-i18n="nav_comparison" class="block py-2 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-gold-600 dark:hover:text-gold-400">Before &amp; After</a>
+      <a href="#reviews" data-i18n="nav_reviews" class="block py-2 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-gold-600 dark:hover:text-gold-400">Reviews</a>
+      <a href="#location" data-i18n="nav_location" class="block py-2 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-gold-600 dark:hover:text-gold-400">Location &amp; Map</a>
+      <a href="tel:+923302689508" class="block py-2 text-sm font-mono text-gold-600 dark:text-gold-400">Call +92 330 2689508</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- =====================================================================
+         3. HERO SECTION (16:9 LED DETAILING BAY + VALUE PROPOSITION)
+         ===================================================================== -->
+    <section id="home" class="relative overflow-hidden border-b border-zinc-200 dark:border-zinc-800/80 bg-obsidian-950 text-white">
+      <!-- High-Priority Hero Image (Unique .jpg #1) + Resilient Fallback Layer -->
+      <div class="absolute inset-0">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e2/AZ_Auto_Detailing.jpg"
+          alt="Luxury vehicle inside Detailing Lab workshop bay receiving paint correction and 9H ceramic protection"
+          fetchpriority="high"
+          loading="eager"
+          referrerpolicy="no-referrer"
+          onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+          class="w-full h-full object-cover object-center opacity-55"
+        />
+        <!-- Styled CSS/SVG Fallback Container -->
+        <div class="hidden w-full h-full bg-gradient-to-br from-obsidian-950 via-obsidian-900 to-zinc-900 flex items-center justify-end pr-12 opacity-90">
+          <svg class="w-96 h-96 text-gold-500/15" viewBox="0 0 200 200" fill="none">
+            <polygon points="100,10 175,52 175,148 100,190 25,148 25,52" stroke="currentColor" stroke-width="1.5"/>
+            <polygon points="100,35 153,65 153,135 100,165 47,135 47,65" stroke="currentColor" stroke-width="1"/>
+          </svg>
+        </div>
+        <!-- Measured Multi-Stop Scrim for >= 4.5:1 Text Contrast -->
+        <div class="absolute inset-0 bg-gradient-to-r from-obsidian-950/95 via-obsidian-950/80 to-obsidian-950/45"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-transparent to-obsidian-950/40"></div>
+      </div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32">
+        <div class="max-w-3xl">
+          <!-- Unboxed Typographic Metadata Kicker (Zero-Pill Rule) -->
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm font-medium text-zinc-300 mb-5">
+            <span class="text-gold-400 font-semibold">Gulshan-e-Iqbal, Karachi</span>
+            <span aria-hidden="true" class="text-zinc-500">·</span>
+            <span class="tabular-nums">4.6 ★ Google Rating (120+ Verified Reviews)</span>
+            <span aria-hidden="true" class="text-zinc-500">·</span>
+            <span id="hero-open-status" class="text-zinc-300">Mon–Thu &amp; Sat–Sun</span>
+          </div>
+
+          <h1 data-i18n="hero_title" class="font-display font-bold tracking-tight text-white leading-[1.08]" style="font-size: clamp(2.25rem, 4.2vw, 3.75rem);">
+            Mirror-Grade Paint Correction &amp; 9H Ceramic Protection
+          </h1>
+
+          <p data-i18n="hero_subtitle" class="mt-5 text-base sm:text-lg text-zinc-300 leading-relaxed max-w-2xl">
+            Detailing Lab on Rashid Minhas Road delivers honest paint diagnostics, optical swirl removal, self-healing PPF wrapping, and hydrophobic 9H ceramic coatings engineered for Karachi’s climate.
+          </p>
+
+          <!-- Primary + Secondary Hero Actions -->
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a href="#booking" data-i18n="hero_cta_primary" class="px-6 py-3 rounded-md bg-gold-500 hover:bg-gold-400 text-obsidian-950 font-semibold text-sm transition-colors whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400">
+              Book Detailing Slot
+            </a>
+            <a href="#packages" data-i18n="hero_cta_secondary" class="px-6 py-3 rounded-md border border-zinc-600 hover:border-gold-400 text-white hover:text-gold-300 font-medium text-sm transition-colors whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400">
+              Calculate Package Price
+            </a>
+            <a href="tel:+923302689508" dir="ltr" class="inline-flex items-center gap-2 px-3 py-3 text-sm font-mono text-zinc-300 hover:text-gold-400 transition-colors whitespace-nowrap shrink-0">
+              <svg class="w-4 h-4 text-gold-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+92 330 2689508</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Full-Width Studio Proof Strip Below Hero Copy -->
+        <div class="mt-14 pt-8 border-t border-zinc-800/90 grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div>
+            <p class="font-mono text-2xl sm:text-3xl font-semibold text-white tabular-nums"><span class="counter" data-target="1500">1,500</span>+</p>
+            <p data-i18n="stat_cars" class="text-xs sm:text-sm text-zinc-400 mt-1">Vehicles Detailed in Karachi</p>
+          </div>
+          <div>
+            <p class="font-mono text-2xl sm:text-3xl font-semibold text-gold-400 tabular-nums">9H</p>
+            <p data-i18n="stat_ceramic" class="text-xs sm:text-sm text-zinc-400 mt-1">Certified Hydrophobic Hardness</p>
+          </div>
+          <div>
+            <p class="font-mono text-2xl sm:text-3xl font-semibold text-white tabular-nums">4.6 ★</p>
+            <p data-i18n="stat_rating" class="text-xs sm:text-sm text-zinc-400 mt-1">Google Maps Rating (120+ Reviews)</p>
+          </div>
+          <div>
+            <p class="font-mono text-2xl sm:text-3xl font-semibold text-white tabular-nums">100%</p>
+            <p data-i18n="stat_honest" class="text-xs sm:text-sm text-zinc-400 mt-1">Zero-Upsell Honest Inspection</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         4. CORE CAPABILITIES OVERVIEW (ASYMMETRIC EDITORIAL GRID)
+         ===================================================================== -->
+    <section id="services" class="py-16 sm:py-24 border-b border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-obsidian-950">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div class="max-w-2xl">
+            <p data-i18n="services_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Studio Disciplines</p>
+            <h2 data-i18n="services_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+              Specialized Protection for Daily Drivers &amp; Collector Builds
+            </h2>
+          </div>
+          <p data-i18n="services_sub" class="text-sm text-zinc-600 dark:text-zinc-400 max-w-md">
+            Every vehicle undergoes paint-depth inspection before work begins. We recommend only the correction stage your clear coat genuinely requires.
+          </p>
+        </div>
+
+        <!-- Asymmetric Bento Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="md:col-span-2 p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+            <span class="font-mono text-xs text-gold-600 dark:text-gold-400">01. Paint Protection Film</span>
+            <h3 class="font-display text-xl font-semibold text-zinc-950 dark:text-white mt-2">Self-Healing TPU Wrapping &amp; Precision Edge Tucking</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+              Optical-grade aliphatic TPU shields bumpers, bonnets, fenders, and side mirrors from stone chips, highway debris, and harsh sun exposure. Heat-activated self-healing top coat erases light wash marring cleanly.
+            </p>
+            <div class="mt-5 pt-4 border-t border-zinc-200 dark:border-zinc-800 flex flex-wrap gap-x-4 gap-y-1 text-xs text-zinc-500 dark:text-zinc-400">
+              <span>7.5–8.5 Mil Thickness</span>
+              <span aria-hidden="true">·</span>
+              <span>Non-Yellowing UV Top Coat</span>
+              <span aria-hidden="true">·</span>
+              <span>Clean Wrapped Edges</span>
+            </div>
+          </div>
+
+          <div class="p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+            <span class="font-mono text-xs text-gold-600 dark:text-gold-400">02. 9H Ceramic Matrix</span>
+            <h3 class="font-display text-xl font-semibold text-zinc-950 dark:text-white mt-2">Crystalline Gloss &amp; Hydrophobic Shield</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+              Bonds chemically with factory clear coat to repel monsoon grime, bird droppings, hard-water spotting, and UV oxidation while deepening metallic flake clarity.
+            </p>
+            <div class="mt-5 pt-4 border-t border-zinc-200 dark:border-zinc-800 flex flex-wrap gap-x-3 gap-y-1 text-xs text-zinc-500 dark:text-zinc-400">
+              <span>110°+ Contact Angle</span>
+              <span aria-hidden="true">·</span>
+              <span>IR-Cured</span>
+            </div>
+          </div>
+
+          <div class="p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+            <span class="font-mono text-xs text-gold-600 dark:text-gold-400">03. Paint Correction</span>
+            <h3 class="font-display text-xl font-semibold text-zinc-950 dark:text-white mt-2">Multi-Stage Swirl &amp; Haze Elimination</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+              Dual-action compounding and jeweling polish remove 85–95% of cobweb swirls, rotary holograms, and hard-water etching without thinning clear coat unnecessarily.
+            </p>
+          </div>
+
+          <div class="md:col-span-2 p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+            <span class="font-mono text-xs text-gold-600 dark:text-gold-400">04. Interior &amp; Engine Bay Restoration</span>
+            <h3 class="font-display text-xl font-semibold text-zinc-950 dark:text-white mt-2">Steam Sanitization, Matte Leather Conditioning &amp; Dressing</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+              Dry-steam vent disinfection, pH-balanced Alcantara and perforated leather conditioning with zero greasy residue, plus safe degreasing and satin dressing for your engine compartment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         5. DYNAMIC PACKAGES + VEHICLE SIZE & CURRENCY CALCULATOR
+         ===================================================================== -->
+    <section id="packages" class="py-16 sm:py-24 border-b border-zinc-200 dark:border-zinc-800/80 bg-zinc-50 dark:bg-obsidian-900/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+          <div>
+            <p data-i18n="packages_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Transparent Pricing Calculator</p>
+            <h2 data-i18n="packages_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+              Detailing &amp; Protection Packages
+            </h2>
+            <p data-i18n="packages_sub" class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 max-w-xl">
+              Select your vehicle class below to recalculate live pricing across all packages and currencies.
+            </p>
+          </div>
+
+          <!-- Interactive Vehicle Size Selector (Segmented Control) -->
+          <div class="inline-flex flex-wrap sm:flex-nowrap items-center gap-1 p-1 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 shrink-0" role="group" aria-label="Vehicle Size Selector">
+            <button type="button" data-size="sedan" class="size-btn px-3.5 py-2 rounded-md text-xs font-semibold transition-colors whitespace-nowrap shrink-0 bg-gold-500 text-obsidian-950">
+              <span data-i18n="size_sedan">Sedan / Hatchback</span>
+            </button>
+            <button type="button" data-size="suv" class="size-btn px-3.5 py-2 rounded-md text-xs font-semibold transition-colors whitespace-nowrap shrink-0 text-zinc-600 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white">
+              <span data-i18n="size_suv">SUV / 4x4 Crossover (+20%)</span>
+            </button>
+            <button type="button" data-size="luxury" class="size-btn px-3.5 py-2 rounded-md text-xs font-semibold transition-colors whitespace-nowrap shrink-0 text-zinc-600 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white">
+              <span data-i18n="size_luxury">Luxury / Sports Car (+35%)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Package Cards (Each with Unique .jpg + Zero-Broken-Image Fallback) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+
+          <!-- Package 1 -->
+          <article class="flex flex-col rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950">
+            <div class="relative aspect-[4/3] w-full overflow-hidden bg-obsidian-900">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/67/Mobile_Wash_partner_washing_a_car.jpg"
+                alt="Express pH-neutral snow foam wash and exterior decontamination"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+              />
+              <div class="hidden w-full h-full bg-gradient-to-br from-obsidian-900 via-zinc-900 to-obsidian-950 flex flex-col items-center justify-center p-6 text-center">
+                <svg class="w-12 h-12 text-gold-400/70 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <span class="font-display text-sm font-semibold text-zinc-200">Express Foam Wash &amp; Vacuum</span>
+              </div>
+            </div>
+            <div class="p-6 sm:p-7 flex flex-col flex-1">
+              <div class="flex items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400 font-mono">
+                <span>01 · MAINTENANCE CARE</span>
+                <span>Est. 90 mins</span>
+              </div>
+              <h3 data-i18n="pkg1_title" class="font-display text-xl font-bold text-zinc-950 dark:text-white mt-2">
+                Express Foam Wash &amp; Interior Deep Vacuum
+              </h3>
+              <p data-i18n="pkg1_desc" class="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+                Safe two-bucket pH-neutral snow foam wash, wheel barrel brush cleaning, plush microfiber air-dry, and thorough cabin vacuuming.
+              </p>
+              <ul class="mt-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-300 flex-1">
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>pH-neutral thick snow foam pre-soak &amp; contact wash</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Alloy wheel, brake caliper &amp; arch decontamination</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Deep cabin vacuum, dashboard wipe &amp; glass clarity</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Non-sling satin tire dressing &amp; spray SiO2 topper</span></li>
+              </ul>
+              <div class="mt-6 pt-5 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4">
+                <div>
+                  <span class="block text-xs text-zinc-500 dark:text-zinc-400" data-i18n="pkg_est_price">Estimated Price</span>
+                  <span class="pkg-price font-mono text-2xl font-bold text-zinc-950 dark:text-gold-400 tabular-nums" data-base-pkr="4500">₨ 4,500</span>
+                </div>
+                <button type="button" data-pkg="Express Foam Wash &amp; Interior Deep Vacuum" class="select-pkg-btn px-5 py-2.5 rounded-md bg-zinc-900 hover:bg-zinc-800 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap shrink-0">
+                  <span data-i18n="pkg_select_btn">Select Package</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Package 2 -->
+          <article class="flex flex-col rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950">
+            <div class="relative aspect-[4/3] w-full overflow-hidden bg-obsidian-900">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Asset_3.jpg"
+                alt="Multi-stage dual-action machine polishing and paint correction"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+              />
+              <div class="hidden w-full h-full bg-gradient-to-br from-obsidian-900 via-zinc-900 to-obsidian-950 flex flex-col items-center justify-center p-6 text-center">
+                <svg class="w-12 h-12 text-gold-400/70 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                <span class="font-display text-sm font-semibold text-zinc-200">Multi-Stage Paint Correction</span>
+              </div>
+            </div>
+            <div class="p-6 sm:p-7 flex flex-col flex-1">
+              <div class="flex items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400 font-mono">
+                <span>02 · GLOSS RESTORATION</span>
+                <span>Est. 6–8 hours</span>
+              </div>
+              <h3 data-i18n="pkg2_title" class="font-display text-xl font-bold text-zinc-950 dark:text-white mt-2">
+                Multi-Stage Paint Correction &amp; Gloss Enhancement
+              </h3>
+              <p data-i18n="pkg2_desc" class="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+                Precision iron &amp; clay decontamination followed by 2-to-3 stage rotary and dual-action machine polishing to erase swirls and oxidation.
+              </p>
+              <ul class="mt-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-300 flex-1">
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Chemical iron fallout removal &amp; fine-grade clay bar</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Ultrasonic clear-coat thickness mapping per panel</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Heavy cutting + jeweling finish (85–95% defect removal)</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>6-month SiO2 polymer sealant &amp; trim restoration</span></li>
+              </ul>
+              <div class="mt-6 pt-5 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4">
+                <div>
+                  <span class="block text-xs text-zinc-500 dark:text-zinc-400" data-i18n="pkg_est_price">Estimated Price</span>
+                  <span class="pkg-price font-mono text-2xl font-bold text-zinc-950 dark:text-gold-400 tabular-nums" data-base-pkr="22000">₨ 22,000</span>
+                </div>
+                <button type="button" data-pkg="Multi-Stage Paint Correction &amp; Gloss Enhancement" class="select-pkg-btn px-5 py-2.5 rounded-md bg-zinc-900 hover:bg-zinc-800 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap shrink-0">
+                  <span data-i18n="pkg_select_btn">Select Package</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Package 3 -->
+          <article class="flex flex-col rounded-xl overflow-hidden border border-gold-500/60 dark:border-gold-500/50 bg-white dark:bg-obsidian-950">
+            <div class="relative aspect-[4/3] w-full overflow-hidden bg-obsidian-900">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Cleaning_interior.jpg"
+                alt="Full interior restoration and 9H ceramic coating service"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+              />
+              <div class="hidden w-full h-full bg-gradient-to-br from-obsidian-900 via-zinc-900 to-obsidian-950 flex flex-col items-center justify-center p-6 text-center">
+                <svg class="w-12 h-12 text-gold-400/70 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3z"/></svg>
+                <span class="font-display text-sm font-semibold text-zinc-200">9H Ceramic &amp; Interior Restoration</span>
+              </div>
+            </div>
+            <div class="p-6 sm:p-7 flex flex-col flex-1">
+              <div class="flex items-center justify-between gap-4 text-xs text-gold-600 dark:text-gold-400 font-mono font-semibold">
+                <span>03 · SIGNATURE PACKAGE · MOST POPULAR</span>
+                <span>Est. 24 hours</span>
+              </div>
+              <h3 data-i18n="pkg3_title" class="font-display text-xl font-bold text-zinc-950 dark:text-white mt-2">
+                Ultimate 9H Ceramic Coating &amp; Full Interior Restoration
+              </h3>
+              <p data-i18n="pkg3_desc" class="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+                Multi-stage correction paired with dual-layer 9H ceramic paint armor, glass water-repellent coating, and full steam cabin rejuvenation.
+              </p>
+              <ul class="mt-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-300 flex-1">
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Full multi-stage paint correction + IPA panel prep</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>2 layers of 9H Ceramic Coating (3–5 year durability)</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Hydrophobic windshield, wheels &amp; exterior plastic trim</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Full leather/fabric deep extraction &amp; steam sanitization</span></li>
+              </ul>
+              <div class="mt-6 pt-5 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4">
+                <div>
+                  <span class="block text-xs text-zinc-500 dark:text-zinc-400" data-i18n="pkg_est_price">Estimated Price</span>
+                  <span class="pkg-price font-mono text-2xl font-bold text-zinc-950 dark:text-gold-400 tabular-nums" data-base-pkr="48000">₨ 48,000</span>
+                </div>
+                <button type="button" data-pkg="Ultimate 9H Ceramic Coating &amp; Full Interior Restoration" class="select-pkg-btn px-5 py-2.5 rounded-md bg-gold-600 hover:bg-gold-500 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap shrink-0">
+                  <span data-i18n="pkg_select_btn">Select Package</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Package 4 -->
+          <article class="flex flex-col rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950">
+            <div class="relative aspect-[4/3] w-full overflow-hidden bg-obsidian-900">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/54/A_person_cleans_the_engine.jpg"
+                alt="Engine bay detailing and self-healing paint protection film installation"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+              />
+              <div class="hidden w-full h-full bg-gradient-to-br from-obsidian-900 via-zinc-900 to-obsidian-950 flex flex-col items-center justify-center p-6 text-center">
+                <svg class="w-12 h-12 text-gold-400/70 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 7V5m10 2V5M8 12h8"/></svg>
+                <span class="font-display text-sm font-semibold text-zinc-200">Self-Healing PPF &amp; Engine Bay</span>
+              </div>
+            </div>
+            <div class="p-6 sm:p-7 flex flex-col flex-1">
+              <div class="flex items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400 font-mono">
+                <span>04 · MAXIMUM ARMOR</span>
+                <span>Est. 2–3 days</span>
+              </div>
+              <h3 data-i18n="pkg4_title" class="font-display text-xl font-bold text-zinc-950 dark:text-white mt-2">
+                Self-Healing Paint Protection Film (PPF) &amp; Engine Bay Detailing
+              </h3>
+              <p data-i18n="pkg4_desc" class="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+                Full-body or high-impact optical TPU film installation with tucked edges, combined with safe engine bay degreasing and OEM satin dressing.
+              </p>
+              <ul class="mt-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-300 flex-1">
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>8-mil self-healing TPU PPF with tucked seamless edges</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Stone-chip, scratch &amp; UV yellowing resistance</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Water-safe electrical masking &amp; engine bay degreasing</span></li>
+                <li class="flex items-start gap-2.5"><span class="text-gold-600 dark:text-gold-400 font-bold">✓</span><span>Complimentary 30-day edge inspection &amp; wash</span></li>
+              </ul>
+              <div class="mt-6 pt-5 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4">
+                <div>
+                  <span class="block text-xs text-zinc-500 dark:text-zinc-400" data-i18n="pkg_est_price">Estimated Price</span>
+                  <span class="pkg-price font-mono text-2xl font-bold text-zinc-950 dark:text-gold-400 tabular-nums" data-base-pkr="145000">₨ 145,000</span>
+                </div>
+                <button type="button" data-pkg="Self-Healing Paint Protection Film (PPF) &amp; Engine Bay Detailing" class="select-pkg-btn px-5 py-2.5 rounded-md bg-zinc-900 hover:bg-zinc-800 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap shrink-0">
+                  <span data-i18n="pkg_select_btn">Select Package</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         6. INTERACTIVE BEFORE/AFTER COMPARISON SLIDER & CREDENTIALS
+         ===================================================================== -->
+    <section id="comparison" class="py-16 sm:py-24 border-b border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-obsidian-950">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <!-- Left Column: Credentials & Explanation -->
+          <div class="lg:col-span-5 space-y-6">
+            <div>
+              <p data-i18n="ba_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Optical Clarity Test</p>
+              <h2 data-i18n="ba_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+                Swirl-Marred Clear Coat vs. 9H Ceramic Mirror Finish
+              </h2>
+              <p data-i18n="ba_desc" class="text-sm sm:text-base text-zinc-600 dark:text-zinc-400 mt-4 leading-relaxed">
+                Drag the handle across the hood inspection frame to compare oxidized, wash-marred paintwork against our multi-stage corrected and 9H ceramic sealed finish.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 pt-2">
+              <div class="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+                <p class="font-mono text-xl font-bold text-zinc-950 dark:text-white tabular-nums">92%+</p>
+                <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Swirl &amp; Haze Defect Reduction</p>
+              </div>
+              <div class="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900">
+                <p class="font-mono text-xl font-bold text-gold-600 dark:text-gold-400 tabular-nums">100 GU</p>
+                <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Reflective Gloss Meter Rating</p>
+              </div>
+            </div>
+
+            <!-- Keyboard / Quick Preset Controls -->
+            <div class="flex items-center gap-3 pt-1">
+              <button type="button" id="ba-preset-before" class="px-3.5 py-1.5 rounded-md border border-zinc-200 dark:border-zinc-800 text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:border-gold-500 transition-colors">Show Before</button>
+              <button type="button" id="ba-preset-split" class="px-3.5 py-1.5 rounded-md border border-zinc-200 dark:border-zinc-800 text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:border-gold-500 transition-colors">50 / 50 Split</button>
+              <button type="button" id="ba-preset-after" class="px-3.5 py-1.5 rounded-md border border-zinc-200 dark:border-zinc-800 text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:border-gold-500 transition-colors">Show After</button>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Drag Before/After Slider -->
+          <div class="lg:col-span-7">
+            <div id="ba-slider" class="ba-container relative aspect-[16/10] w-full rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-obsidian-900 cursor-ew-resize select-none" role="slider" aria-label="Before and after paint correction comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+
+              <!-- AFTER Layer (Full Background — Unique .jpg #7) -->
+              <div class="absolute inset-0">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/ef/McLaren_650S_%2854980011528%29.jpg"
+                  alt="Mirror gloss 9H ceramic coated paint finish after correction"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                  class="w-full h-full object-cover"
+                />
+                <div class="hidden w-full h-full bg-gradient-to-br from-zinc-900 via-obsidian-950 to-black flex items-center justify-end pr-10">
+                  <span class="font-display text-lg font-semibold text-gold-400">9H Mirror Gloss Finish</span>
+                </div>
+              </div>
+
+              <!-- BEFORE Layer (Clipped Overlay — Unique .jpg #6) -->
+              <div id="ba-before-layer" class="absolute inset-0 overflow-hidden" style="clip-path: inset(0 50% 0 0);">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Asset_6.jpg"
+                  alt="Dull swirl-marked vehicle paintwork prior to multi-stage polishing"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                  class="w-full h-full object-cover grayscale-[45%] contrast-90 brightness-90"
+                />
+                <div class="hidden w-full h-full bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-900 flex items-center justify-start pl-10">
+                  <span class="font-display text-lg font-semibold text-zinc-300">Swirl &amp; Haze Paint State</span>
+                </div>
+              </div>
+
+              <!-- Corner Labels -->
+              <span class="pointer-events-none absolute top-4 left-4 px-3 py-1 rounded bg-obsidian-950/80 text-zinc-200 text-xs font-mono border border-zinc-700/80">BEFORE · SWIRL &amp; HAZE</span>
+              <span class="pointer-events-none absolute top-4 right-4 px-3 py-1 rounded bg-obsidian-950/80 text-gold-400 text-xs font-mono border border-gold-500/50">AFTER · 9H CERAMIC</span>
+
+              <!-- Draggable Vertical Divider & Handle -->
+              <div id="ba-divider" class="pointer-events-none absolute inset-y-0 w-0.5 bg-gold-400 shadow-[0_0_12px_rgba(212,175,55,0.6)]" style="left: 50%;">
+                <div class="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-gold-500 text-obsidian-950 flex items-center justify-center shadow-lg border-2 border-white">
+                  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18-6-6 6-6"/><path d="m15 6 6 6-6 6"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         7. SMART APPOINTMENT BOOKING + WHATSAPP DISPATCH
+         ===================================================================== -->
+    <section id="booking" class="py-16 sm:py-24 border-b border-zinc-200 dark:border-zinc-800/80 bg-zinc-50 dark:bg-obsidian-900/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+
+          <!-- Left Column: Booking Guidance & Hours Note -->
+          <div class="lg:col-span-5 space-y-6">
+            <div>
+              <p data-i18n="book_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Reserve Your Bay</p>
+              <h2 data-i18n="book_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+                Book Your Detailing Slot
+              </h2>
+              <p data-i18n="book_desc" class="text-sm text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+                Lock in a dedicated studio bay on Rashid Minhas Road. Submit your vehicle details to generate a confirmed reservation summary and dispatch it directly to our lead detailer on WhatsApp.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 space-y-4">
+              <h3 class="font-display text-base font-semibold text-zinc-950 dark:text-white">Live Booking Estimate</h3>
+              <div class="flex items-baseline justify-between gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-3">
+                <span class="text-xs text-zinc-500 dark:text-zinc-400">Selected Package</span>
+                <span id="summary-pkg-name" class="text-xs font-semibold text-zinc-900 dark:text-zinc-100 text-right">Ultimate 9H Ceramic Coating &amp; Full Interior Restoration</span>
+              </div>
+              <div class="flex items-baseline justify-between gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-3">
+                <span class="text-xs text-zinc-500 dark:text-zinc-400">Vehicle Class</span>
+                <span id="summary-vehicle-size" class="text-xs font-medium text-zinc-800 dark:text-zinc-200">Sedan / Hatchback</span>
+              </div>
+              <div class="flex items-baseline justify-between gap-4">
+                <span class="text-xs text-zinc-500 dark:text-zinc-400">Estimated Total</span>
+                <span id="summary-total-price" class="font-mono text-2xl font-bold text-gold-600 dark:text-gold-400 tabular-nums">₨ 48,000</span>
+              </div>
+              <p class="text-xs text-zinc-500 dark:text-zinc-400 pt-1">
+                Final quote confirmed after complimentary in-bay paint inspection. Note: Studio is closed on Fridays.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Validated Booking Form -->
+          <div class="lg:col-span-7">
+            <form id="booking-form" novalidate class="p-6 sm:p-8 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="book-name" data-i18n="form_name" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Full Name</label>
+                  <input id="book-name" name="fullName" type="text" required placeholder="e.g. Bilal Siddiqui" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm text-zinc-950 dark:text-white placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-gold-500" />
+                </div>
+                <div>
+                  <label for="book-phone" data-i18n="form_phone" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Phone / WhatsApp Number</label>
+                  <input id="book-phone" name="phone" type="tel" required dir="ltr" placeholder="e.g. 0300 1234567" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm font-mono text-zinc-950 dark:text-white placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-gold-500" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="book-vehicle" data-i18n="form_vehicle" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Vehicle Make, Model &amp; Year</label>
+                  <input id="book-vehicle" name="vehicleModel" type="text" required placeholder="e.g. Honda Civic RS 2025 / BMW M4" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm text-zinc-950 dark:text-white placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-gold-500" />
+                </div>
+                <div>
+                  <label for="book-category" data-i18n="form_category" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Vehicle Category</label>
+                  <select id="book-category" name="vehicleCategory" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm text-zinc-950 dark:text-white focus:outline-none focus:ring-2 focus:ring-gold-500">
+                    <option value="sedan">Sedan / Hatchback (Standard)</option>
+                    <option value="suv">SUV / 4x4 Crossover (+20%)</option>
+                    <option value="luxury">Luxury / Sports Car (+35%)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="book-package" data-i18n="form_package" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Selected Package</label>
+                <select id="book-package" name="packageName" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm text-zinc-950 dark:text-white focus:outline-none focus:ring-2 focus:ring-gold-500">
+                  <option value="Express Foam Wash &amp; Interior Deep Vacuum">01. Express Foam Wash &amp; Interior Deep Vacuum</option>
+                  <option value="Multi-Stage Paint Correction &amp; Gloss Enhancement">02. Multi-Stage Paint Correction &amp; Gloss Enhancement</option>
+                  <option value="Ultimate 9H Ceramic Coating &amp; Full Interior Restoration" selected>03. Ultimate 9H Ceramic Coating &amp; Full Interior Restoration</option>
+                  <option value="Self-Healing Paint Protection Film (PPF) &amp; Engine Bay Detailing">04. Self-Healing Paint Protection Film (PPF) &amp; Engine Bay Detailing</option>
+                </select>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="book-date" data-i18n="form_date" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Preferred Date (Closed Fridays)</label>
+                  <input id="book-date" name="preferredDate" type="date" required class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm font-mono text-zinc-950 dark:text-white focus:outline-none focus:ring-2 focus:ring-gold-500" />
+                </div>
+                <div>
+                  <label for="book-time" data-i18n="form_time" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1.5">Preferred Drop-Off Slot</label>
+                  <select id="book-time" name="timeSlot" class="w-full h-11 px-3.5 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-obsidian-900 text-sm font-mono text-zinc-950 dark:text-white focus:outline-none focus:ring-2 focus:ring-gold-500">
+                    <option value="11:00 AM">11:00 AM (Morning Bay)</option>
+                    <option value="01:00 PM">01:00 PM (Midday Bay)</option>
+                    <option value="03:30 PM">03:30 PM (Afternoon Bay)</option>
+                    <option value="05:30 PM">05:30 PM (Evening Bay)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Validation Error Banner -->
+              <div id="booking-error" role="alert" class="hidden p-3.5 rounded-md border border-red-300 dark:border-red-900 bg-red-50 dark:bg-red-950/50 text-xs font-medium text-red-700 dark:text-red-300"></div>
+
+              <button type="submit" data-i18n="form_submit" class="w-full h-12 rounded-md bg-gold-600 hover:bg-gold-500 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 font-semibold text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500">
+                Confirm Slot &amp; Prepare WhatsApp Dispatch
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         8. VERIFIED GOOGLE REVIEWS & TESTIMONIALS
+         ===================================================================== -->
+    <section id="reviews" class="py-16 sm:py-24 border-b border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-obsidian-950">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div>
+            <p data-i18n="reviews_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Google Maps Client Feedback</p>
+            <h2 data-i18n="reviews_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+              Rated 4.6 ★ Across 120+ Karachi Motorists
+            </h2>
+          </div>
+          <a href="https://maps.app.goo.gl/sEmrkAA9pPrmyYTFA" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-semibold text-gold-600 dark:text-gold-400 hover:underline whitespace-nowrap shrink-0">
+            <span>View Detailing Lab on Google Maps</span>
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Review 1 (Unique .jpg #8) -->
+          <article class="p-6 sm:p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900 flex flex-col justify-between gap-6">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-gold-600 dark:text-gold-400 mb-3">
+                <span>★★★★★ 5.0</span>
+                <span class="text-zinc-500 dark:text-zinc-400">Google Review</span>
+              </div>
+              <p class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+                “Brought my Civic in expecting to pay for a full repaint polish, and the management gave me completely honest advice instead of upselling an expensive package. My 9H ceramic finish came out like wet glass and the staff was super courteous.”
+              </p>
+            </div>
+            <div class="flex items-center gap-3.5 pt-4 border-t border-zinc-200 dark:border-zinc-800">
+              <div class="relative w-11 h-11 rounded-full overflow-hidden bg-obsidian-800 shrink-0">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Bilal Siddiqui"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                  class="w-full h-full object-cover"
+                />
+                <div class="hidden w-full h-full flex items-center justify-center text-xs font-bold text-gold-400 bg-obsidian-800">BS</div>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-zinc-950 dark:text-white">Bilal Siddiqui</p>
+                <p class="text-xs text-zinc-500 dark:text-zinc-400">9H Ceramic Coating · Gulshan-e-Iqbal</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 2 (Unique .jpg #9) -->
+          <article class="p-6 sm:p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900 flex flex-col justify-between gap-6">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-gold-600 dark:text-gold-400 mb-3">
+                <span>★★★★★ 5.0</span>
+                <span class="text-zinc-500 dark:text-zinc-400">Google Review</span>
+              </div>
+              <p class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+                “Got front-end PPF wrapping and full interior detailing done at Detailing Lab. Edge wrapping around the bumper and fenders is clean and invisible, and the pricing was genuinely fair compared to other studios in Karachi.”
+              </p>
+            </div>
+            <div class="flex items-center gap-3.5 pt-4 border-t border-zinc-200 dark:border-zinc-800">
+              <div class="relative w-11 h-11 rounded-full overflow-hidden bg-obsidian-800 shrink-0">
+                <img
+                  src="https://randomuser.me/api/portraits/men/45.jpg"
+                  alt="Usman Tariq"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                  class="w-full h-full object-cover"
+                />
+                <div class="hidden w-full h-full flex items-center justify-center text-xs font-bold text-gold-400 bg-obsidian-800">UT</div>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-zinc-950 dark:text-white">Usman Tariq</p>
+                <p class="text-xs text-zinc-500 dark:text-zinc-400">PPF Wrapping · Rashid Minhas Rd</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 3 (Unique .jpg #10) -->
+          <article class="p-6 sm:p-7 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900 flex flex-col justify-between gap-6">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-gold-600 dark:text-gold-400 mb-3">
+                <span>★★★★★ 5.0</span>
+                <span class="text-zinc-500 dark:text-zinc-400">Google Review</span>
+              </div>
+              <p class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+                “Meticulous interior deep cleaning and swirl removal on my SUV. Every AC vent, leather seam, and wheel barrel looked factory fresh when I picked it up. Highly recommended for anyone who cares about real craftsmanship.”
+              </p>
+            </div>
+            <div class="flex items-center gap-3.5 pt-4 border-t border-zinc-200 dark:border-zinc-800">
+              <div class="relative w-11 h-11 rounded-full overflow-hidden bg-obsidian-800 shrink-0">
+                <img
+                  src="https://randomuser.me/api/portraits/men/64.jpg"
+                  alt="Saad Ahmed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+                  class="w-full h-full object-cover"
+                />
+                <div class="hidden w-full h-full flex items-center justify-center text-xs font-bold text-gold-400 bg-obsidian-800">SA</div>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-zinc-950 dark:text-white">Saad Ahmed</p>
+                <p class="text-xs text-zinc-500 dark:text-zinc-400">Paint Correction &amp; Deep Clean</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         9. FIND OUR DETAILING STUDIO (INTERACTIVE GOOGLE MAP + INFO CARD)
+         ===================================================================== -->
+    <section id="location" class="py-16 sm:py-24 bg-zinc-50 dark:bg-obsidian-900/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10">
+          <p data-i18n="loc_kicker" class="text-xs font-mono uppercase tracking-wider text-gold-600 dark:text-gold-400">Visit Our Karachi Bay</p>
+          <h2 data-i18n="loc_title" class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white mt-2">
+            Find Our Detailing Studio
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          <!-- Embedded Interactive Google Map Centered on Detailing Lab (24.9145649, 67.1016351) -->
+          <div class="lg:col-span-7 min-h-[360px] lg:min-h-[460px] rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-obsidian-900">
+            <iframe
+              title="Detailing Lab Karachi Google Maps Location"
+              src="https://maps.google.com/maps?q=Detailing+Lab,+Rashid+Minhas+Road+Service+Lane,+Block+11+Gulshan-e-Iqbal,+Karachi&ll=24.9145649,67.1016351&z=16&output=embed"
+              class="w-full h-full min-h-[360px] lg:min-h-[460px] border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <!-- High-Contrast Studio Info Card -->
+          <div class="lg:col-span-5 p-6 sm:p-8 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 flex flex-col justify-between gap-6">
+            <div class="space-y-5">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <h3 class="font-display text-2xl font-bold text-zinc-950 dark:text-white">Detailing Lab</h3>
+                  <p class="text-xs font-mono text-gold-600 dark:text-gold-400 mt-1">4.6 ★ · 120+ Google Reviews · Car Detailing Service</p>
+                </div>
+                <span id="studio-status-label" class="text-xs font-mono font-semibold text-zinc-700 dark:text-zinc-300 shrink-0"></span>
+              </div>
+
+              <div class="space-y-3 pt-2 border-t border-zinc-200 dark:border-zinc-800 text-sm">
+                <div>
+                  <p class="text-xs font-mono uppercase text-zinc-500 dark:text-zinc-400">Street Address</p>
+                  <p class="text-zinc-900 dark:text-zinc-100 mt-0.5 font-medium">
+                    Rashid Minhas Road Service Lane, Block 11, Gulshan-e-Iqbal, Karachi, Sindh, Pakistan
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                  <div>
+                    <p class="text-xs font-mono uppercase text-zinc-500 dark:text-zinc-400">Direct Phone</p>
+                    <a href="tel:+923302689508" dir="ltr" class="inline-block font-mono font-semibold text-zinc-950 dark:text-gold-400 hover:underline mt-0.5">+92 330 2689508</a>
+                  </div>
+                  <div>
+                    <p class="text-xs font-mono uppercase text-zinc-500 dark:text-zinc-400">WhatsApp Desk</p>
+                    <a href="https://wa.me/923302689508" target="_blank" rel="noopener noreferrer" dir="ltr" class="inline-block font-mono font-semibold text-emerald-700 dark:text-emerald-400 hover:underline mt-0.5">+92 330 2689508</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Daily Opening Hours Table -->
+              <div class="pt-3 border-t border-zinc-200 dark:border-zinc-800">
+                <p class="text-xs font-mono uppercase text-zinc-500 dark:text-zinc-400 mb-2.5">Opening Hours (PKT)</p>
+                <table class="w-full text-xs font-mono tabular-nums">
+                  <tbody class="divide-y divide-zinc-200 dark:divide-zinc-800/80 text-zinc-700 dark:text-zinc-300">
+                    <tr><td class="py-1.5 font-sans font-medium">Monday – Thursday</td><td class="py-1.5 text-right">11:00 AM – 8:30 PM</td></tr>
+                    <tr><td class="py-1.5 font-sans font-medium text-zinc-500 dark:text-zinc-400">Friday</td><td class="py-1.5 text-right text-zinc-500 dark:text-zinc-400">Closed</td></tr>
+                    <tr><td class="py-1.5 font-sans font-medium">Saturday – Sunday</td><td class="py-1.5 text-right">10:30 AM – 8:30 PM</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-3 pt-2">
+              <a href="https://maps.app.goo.gl/sEmrkAA9pPrmyYTFA" target="_blank" rel="noopener noreferrer" class="flex-1 h-11 px-4 inline-flex items-center justify-center gap-2 rounded-md bg-gold-600 hover:bg-gold-500 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors whitespace-nowrap">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span data-i18n="loc_directions">Get Directions on Google Maps</span>
+              </a>
+              <a href="https://wa.me/923302689508?text=Assalam-o-Alaikum%20Detailing%20Lab!%20Please%20share%20today's%20slot%20availability." target="_blank" rel="noopener noreferrer" class="h-11 px-4 inline-flex items-center justify-center gap-2 rounded-md border border-zinc-300 dark:border-zinc-700 hover:border-emerald-600 text-xs font-semibold text-zinc-900 dark:text-zinc-100 transition-colors whitespace-nowrap">
+                <span>WhatsApp Chat</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       10. CLEAN STUDIO FOOTER
+       ===================================================================== -->
+  <footer class="border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-zinc-200 dark:border-zinc-800">
+        <div class="md:col-span-2 space-y-3">
+          <p class="font-display text-lg font-bold text-zinc-950 dark:text-white">Detailing Lab</p>
+          <p class="text-sm text-zinc-600 dark:text-zinc-400 max-w-md">
+            Precision automotive paint correction, 9H ceramic coating, self-healing PPF installation, and deep cabin restoration on Rashid Minhas Road Service Lane, Block 11 Gulshan-e-Iqbal, Karachi.
+          </p>
+          <p class="text-xs font-mono text-zinc-500 dark:text-zinc-400" dir="ltr">Tel / WhatsApp: +92 330 2689508</p>
+        </div>
+
+        <div>
+          <p class="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-3">Quick Links</p>
+          <ul class="space-y-2 text-sm text-zinc-700 dark:text-zinc-300">
+            <li><a href="#services" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Services</a></li>
+            <li><a href="#packages" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Pricing Calculator</a></li>
+            <li><a href="#comparison" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Before &amp; After</a></li>
+            <li><a href="#booking" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Book Slot</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-3">Connect &amp; Legal</p>
+          <ul class="space-y-2 text-sm text-zinc-700 dark:text-zinc-300">
+            <li><a href="https://maps.app.goo.gl/sEmrkAA9pPrmyYTFA" target="_blank" rel="noopener noreferrer" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Google Maps Profile</a></li>
+            <li><a href="https://wa.me/923302689508" target="_blank" rel="noopener noreferrer" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">WhatsApp Studio Desk</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors">Instagram Showcase</a></li>
+            <li><button id="open-privacy-btn" type="button" class="hover:text-gold-600 dark:hover:text-gold-400 transition-colors text-left">Privacy Policy</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400">
+        <p>© <span id="footer-year">2026</span> Detailing Lab Karachi. All rights reserved.</p>
+        <p>Designed for precision automotive care · Block 11, Gulshan-e-Iqbal, Karachi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       11. BOOKING CONFIRMATION + WHATSAPP DISPATCH MODAL
+       ===================================================================== -->
+  <div id="booking-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+    <div class="w-full max-w-lg rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 p-6 sm:p-8 shadow-2xl">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="text-xs font-mono text-gold-600 dark:text-gold-400">RESERVATION READY</p>
+          <h3 id="booking-modal-title" class="font-display text-2xl font-bold text-zinc-950 dark:text-white mt-1">Booking Summary Prepared</h3>
+        </div>
+        <button id="close-booking-modal" type="button" aria-label="Close booking confirmation" class="p-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:hover:text-white">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+        Click below to send your pre-filled slot request directly to Detailing Lab’s WhatsApp desk (+92 330 2689508).
+      </p>
+
+      <div id="modal-summary-details" class="mt-5 p-4 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-obsidian-900 text-xs font-mono space-y-2 text-zinc-800 dark:text-zinc-200"></div>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <a id="whatsapp-dispatch-link" href="#" target="_blank" rel="noopener noreferrer" class="flex-1 h-11 px-5 inline-flex items-center justify-center gap-2 rounded-md bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold transition-colors">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <span>Send Booking on WhatsApp</span>
+        </a>
+        <button id="done-booking-modal" type="button" class="h-11 px-5 rounded-md border border-zinc-300 dark:border-zinc-700 text-xs font-semibold text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-obsidian-900 transition-colors">
+          Edit Details
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       12. PRIVACY POLICY MODAL
+       ===================================================================== -->
+  <div id="privacy-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="privacy-modal-title">
+    <div class="w-full max-w-lg rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-obsidian-950 p-6 sm:p-8 shadow-2xl">
+      <div class="flex items-start justify-between gap-4">
+        <h3 id="privacy-modal-title" class="font-display text-xl font-bold text-zinc-950 dark:text-white">Privacy Policy — Detailing Lab</h3>
+        <button id="close-privacy-modal" type="button" aria-label="Close privacy policy" class="p-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:hover:text-white">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="mt-4 space-y-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+        <p>
+          Detailing Lab respects your privacy. Details entered in our booking form (name, phone number, vehicle model, and preferred appointment slot) are used strictly to prepare your WhatsApp reservation inquiry and schedule your detailing bay.
+        </p>
+        <p>
+          We do not sell, rent, or transmit your personal information to third-party marketing brokers. Theme preference is stored locally in your browser via <code class="font-mono text-xs">localStorage</code>.
+        </p>
+        <p class="text-xs font-mono text-zinc-500 dark:text-zinc-400 pt-2">
+          Studio Contact: Rashid Minhas Road Service Lane, Block 11 Gulshan-e-Iqbal, Karachi · +92 330 2689508
+        </p>
+      </div>
+      <div class="mt-6 flex justify-end">
+        <button id="accept-privacy-btn" type="button" class="h-10 px-5 rounded-md bg-gold-600 hover:bg-gold-500 dark:bg-gold-500 dark:hover:bg-gold-400 text-white dark:text-obsidian-950 text-xs font-semibold transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       13. VANILLA JAVASCRIPT ENGINE (PRELOADER, THEME, I18N, CURRENCY,
+           VEHICLE MULTIPLIER, BEFORE/AFTER SLIDER, BOOKING & WHATSAPP)
+       ===================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* -------------------------------------------------------------------
+         1. Preloader Fade-Out
+         ------------------------------------------------------------------- */
+      const preloader = document.getElementById('preloader');
+      const dismissPreloader = () => {
+        if (preloader && !preloader.classList.contains('loaded')) {
+          preloader.classList.add('loaded');
+        }
+      };
+      window.addEventListener('load', () => setTimeout(dismissPreloader, 350));
+      setTimeout(dismissPreloader, 1200);
+
+      /* -------------------------------------------------------------------
+         2. Theme Toggle (Default Dark Obsidian / Crisp Light Mode)
+         ------------------------------------------------------------------- */
+      const htmlEl = document.documentElement;
+      const themeToggleBtn = document.getElementById('theme-toggle');
+      const savedTheme = localStorage.getItem('dl_theme');
+      if (savedTheme === 'light') {
+        htmlEl.classList.remove('dark');
+      } else {
+        htmlEl.classList.add('dark');
+      }
+
+      themeToggleBtn.addEventListener('click', () => {
+        const isDark = htmlEl.classList.toggle('dark');
+        localStorage.setItem('dl_theme', isDark ? 'dark' : 'light');
+      });
+
+      /* -------------------------------------------------------------------
+         3. Mobile Navigation Toggle
+         ------------------------------------------------------------------- */
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+      mobileMenuBtn.addEventListener('click', () => {
+        const isHidden = mobileNav.classList.toggle('hidden');
+        mobileMenuBtn.setAttribute('aria-expanded', String(!isHidden));
+      });
+      mobileNav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.add('hidden');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      /* -------------------------------------------------------------------
+         4. Multi-Currency & Vehicle Size Dynamic Pricing Engine
+         ------------------------------------------------------------------- */
+      const CURRENCY_CONFIG = {
+        PKR: { symbol: '₨', rate: 1, decimals: 0 },
+        USD: { symbol: '$', rate: 0.0036, decimals: 0 },
+        GBP: { symbol: '£', rate: 0.0028, decimals: 0 },
+        EUR: { symbol: '€', rate: 0.0033, decimals: 0 },
+        AED: { symbol: 'د.إ', rate: 0.0132, decimals: 0 }
+      };
+
+      const SIZE_MULTIPLIERS = {
+        sedan: { factor: 1.0, label: 'Sedan / Hatchback' },
+        suv: { factor: 1.20, label: 'SUV / 4x4 Crossover (+20%)' },
+        luxury: { factor: 1.35, label: 'Luxury / Sports Car (+35%)' }
+      };
+
+      const PACKAGE_BASE_PKR = {
+        'Express Foam Wash & Interior Deep Vacuum': 4500,
+        'Multi-Stage Paint Correction & Gloss Enhancement': 22000,
+        'Ultimate 9H Ceramic Coating & Full Interior Restoration': 48000,
+        'Self-Healing Paint Protection Film (PPF) & Engine Bay Detailing': 145000
+      };
+
+      let currentCurrency = 'PKR';
+      let currentSize = 'sedan';
+
+      function formatMoney(pkrAmount) {
+        const cfg = CURRENCY_CONFIG[currentCurrency] || CURRENCY_CONFIG.PKR;
+        const converted = Math.round((pkrAmount * cfg.rate) / (currentCurrency === 'PKR' ? 50 : 1)) * (currentCurrency === 'PKR' ? 50 : 1);
+        return cfg.symbol + ' ' + converted.toLocaleString('en-US');
+      }
+
+      const currencySelect = document.getElementById('currency-select');
+      const sizeButtons = document.querySelectorAll('.size-btn');
+      const priceElements = document.querySelectorAll('.pkg-price');
+      const bookCategorySelect = document.getElementById('book-category');
+      const bookPackageSelect = document.getElementById('book-package');
+      const summaryPkgName = document.getElementById('summary-pkg-name');
+      const summaryVehicleSize = document.getElementById('summary-vehicle-size');
+      const summaryTotalPrice = document.getElementById('summary-total-price');
+
+      function updateAllPrices() {
+        const mult = SIZE_MULTIPLIERS[currentSize].factor;
+        priceElements.forEach((el) => {
+          const base = Number(el.getAttribute('data-base-pkr') || 0);
+          el.textContent = formatMoney(base * mult);
+        });
+        updateBookingSummary();
+      }
+
+      function updateBookingSummary() {
+        const pkgName = bookPackageSelect.value;
+        const basePkr = PACKAGE_BASE_PKR[pkgName] || 48000;
+        const mult = SIZE_MULTIPLIERS[currentSize].factor;
+        summaryPkgName.textContent = pkgName;
+        summaryVehicleSize.textContent = SIZE_MULTIPLIERS[currentSize].label;
+        summaryTotalPrice.textContent = formatMoney(basePkr * mult);
+      }
+
+      function setVehicleSize(sizeKey) {
+        if (!SIZE_MULTIPLIERS[sizeKey]) return;
+        currentSize = sizeKey;
+        sizeButtons.forEach((btn) => {
+          const active = btn.getAttribute('data-size') === sizeKey;
+          btn.classList.toggle('bg-gold-500', active);
+          btn.classList.toggle('text-obsidian-950', active);
+          btn.classList.toggle('text-zinc-600', !active);
+          btn.classList.toggle('dark:text-zinc-300', !active);
+        });
+        bookCategorySelect.value = sizeKey;
+        updateAllPrices();
+      }
+
+      sizeButtons.forEach((btn) => {
+        btn.addEventListener('click', () => setVehicleSize(btn.getAttribute('data-size')));
+      });
+
+      currencySelect.addEventListener('change', (e) => {
+        currentCurrency = e.target.value;
+        updateAllPrices();
+      });
+
+      bookCategorySelect.addEventListener('change', (e) => {
+        setVehicleSize(e.target.value);
+      });
+
+      bookPackageSelect.addEventListener('change', updateBookingSummary);
+
+      // "Select Package" buttons on cards -> auto-select & scroll to booking form
+      document.querySelectorAll('.select-pkg-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const pkg = btn.getAttribute('data-pkg');
+          if (pkg) {
+            bookPackageSelect.value = pkg;
+            updateBookingSummary();
+          }
+          document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+          setTimeout(() => document.getElementById('book-name').focus(), 450);
+        });
+      });
+
+      /* -------------------------------------------------------------------
+         5. Multi-Language Translation Dictionary (EN, UR, AR, ES)
+         ------------------------------------------------------------------- */
+      const I18N = {
+        en: {
+          dir: 'ltr',
+          nav_services: 'Services',
+          nav_packages: 'Packages',
+          nav_comparison: 'Before & After',
+          nav_reviews: 'Reviews',
+          nav_location: 'Location & Map',
+          nav_book: 'Book Slot',
+          hero_title: 'Mirror-Grade Paint Correction & 9H Ceramic Protection',
+          hero_subtitle: 'Detailing Lab on Rashid Minhas Road delivers honest paint diagnostics, optical swirl removal, self-healing PPF wrapping, and hydrophobic 9H ceramic coatings engineered for Karachi’s climate.',
+          hero_cta_primary: 'Book Detailing Slot',
+          hero_cta_secondary: 'Calculate Package Price',
+          stat_cars: 'Vehicles Detailed in Karachi',
+          stat_ceramic: 'Certified Hydrophobic Hardness',
+          stat_rating: 'Google Maps Rating (120+ Reviews)',
+          stat_honest: 'Zero-Upsell Honest Inspection',
+          services_kicker: 'Studio Disciplines',
+          services_title: 'Specialized Protection for Daily Drivers & Collector Builds',
+          services_sub: 'Every vehicle undergoes paint-depth inspection before work begins. We recommend only the correction stage your clear coat genuinely requires.',
+          packages_kicker: 'Transparent Pricing Calculator',
+          packages_title: 'Detailing & Protection Packages',
+          packages_sub: 'Select your vehicle class below to recalculate live pricing across all packages and currencies.',
+          size_sedan: 'Sedan / Hatchback',
+          size_suv: 'SUV / 4x4 Crossover (+20%)',
+          size_luxury: 'Luxury / Sports Car (+35%)',
+          pkg_est_price: 'Estimated Price',
+          pkg_select_btn: 'Select Package',
+          ba_kicker: 'Optical Clarity Test',
+          ba_title: 'Swirl-Marred Clear Coat vs. 9H Ceramic Mirror Finish',
+          ba_desc: 'Drag the handle across the hood inspection frame to compare oxidized, wash-marred paintwork against our multi-stage corrected and 9H ceramic sealed finish.',
+          book_kicker: 'Reserve Your Bay',
+          book_title: 'Book Your Detailing Slot',
+          book_desc: 'Lock in a dedicated studio bay on Rashid Minhas Road. Submit your vehicle details to generate a confirmed reservation summary and dispatch it directly to our lead detailer on WhatsApp.',
+          form_name: 'Full Name',
+          form_phone: 'Phone / WhatsApp Number',
+          form_vehicle: 'Vehicle Make, Model & Year',
+          form_category: 'Vehicle Category',
+          form_package: 'Selected Package',
+          form_date: 'Preferred Date (Closed Fridays)',
+          form_time: 'Preferred Drop-Off Slot',
+          form_submit: 'Confirm Slot & Prepare WhatsApp Dispatch',
+          reviews_kicker: 'Google Maps Client Feedback',
+          reviews_title: 'Rated 4.6 ★ Across 120+ Karachi Motorists',
+          loc_kicker: 'Visit Our Karachi Bay',
+          loc_title: 'Find Our Detailing Studio',
+          loc_directions: 'Get Directions on Google Maps'
+        },
+        ur: {
+          dir: 'rtl',
+          nav_services: 'سروسز',
+          nav_packages: 'پیکجز',
+          nav_comparison: 'پہلے اور بعد',
+          nav_reviews: 'جائزے',
+          nav_location: 'لوکیشن اور نقشہ',
+          nav_book: 'سلاٹ بک کریں',
+          hero_title: 'آئینہ دار پینٹ کریکشن اور 9H سیرامک کوٹنگ تحفظ',
+          hero_subtitle: 'راشد منہاس روڈ کراچی پر واقع ڈیٹیلنگ لیب آپ کی گاڑی کے لیے دیانتدارانہ معائنہ، سوئرل ریموول، سیلف ہیلنگ پی پی ایف اور 9H سیرامک کوٹنگ کی معیاری سہولیات فراہم کرتا ہے۔',
+          hero_cta_primary: 'ڈیٹیلنگ سلاٹ بک کریں',
+          hero_cta_secondary: 'پیکج کی قیمت معلوم کریں',
+          stat_cars: 'کراچی میں گاڑیوں کی ڈیٹیلنگ',
+          stat_ceramic: 'تصدیق شدہ ہائیڈروفوبک کوٹنگ',
+          stat_rating: 'گوگل میپس ریٹنگ (120+ ریویوز)',
+          stat_honest: 'بغیر کسی دباؤ کے دیانتدار مشورہ',
+          services_kicker: 'اسٹوڈیو کی مہارتیں',
+          services_title: 'روزمرہ اور لگژری گاڑیوں کے لیے خصوصی تحفظ',
+          services_sub: 'کام شروع کرنے سے پہلے ہر گاڑی کے پینٹ کا باریک بینی سے معائنہ کیا جاتا ہے۔',
+          packages_kicker: 'شفاف پرائس کیلکولیٹر',
+          packages_title: 'ڈیٹیلنگ اور پروٹیکشن پیکجز',
+          packages_sub: 'تمام پیکجز کی لائیو قیمتیں دیکھنے کے لیے نیچے اپنی گاڑی کی قسم منتخب کریں۔',
+          size_sedan: 'سیڈان / ہیچ بیک',
+          size_suv: 'ایس یو وی / 4x4 (+20%)',
+          size_luxury: 'لگژری / اسپورٹس کار (+35%)',
+          pkg_est_price: 'اندازاً قیمت',
+          pkg_select_btn: 'پیکج منتخب کریں',
+          ba_kicker: 'پینٹ کلاریٹی موازنہ',
+          ba_title: 'خراش زدہ پینٹ بمقابلہ 9H سیرامک آئینہ دار چمک',
+          ba_desc: 'اصلی فرق دیکھنے کے لیے تصویر پر سلائیڈر کو دائیں یا بائیں کھینچیں۔',
+          book_kicker: 'اپنا بے ریزرو کریں',
+          book_title: 'اپنا ڈیٹیلنگ سلاٹ بک کریں',
+          book_desc: 'اپنی گاڑی کی تفصیلات درج کریں اور واٹس ایپ کے ذریعے فوری بکنگ کنفرم کریں۔',
+          form_name: 'پورا نام',
+          form_phone: 'فون / واٹس ایپ نمبر',
+          form_vehicle: 'گاڑی کا نام، ماڈل اور سال',
+          form_category: 'گاڑی کی قسم',
+          form_package: 'منتخب پیکج',
+          form_date: 'پسندیدہ تاریخ (جمعہ بند)',
+          form_time: 'وقت کا انتخاب',
+          form_submit: 'بکنگ کنفرم کریں اور واٹس ایپ پر بھیجیں',
+          reviews_kicker: 'گوگل میپس صارفین کی رائے',
+          reviews_title: 'کراچی کے 120+ صارفین کی جانب سے 4.6 ★ ریٹنگ',
+          loc_kicker: 'ہمارے اسٹوڈیو تشریف لائیں',
+          loc_title: 'ڈیٹیلنگ لیب لوکیشن اور نقشہ',
+          loc_directions: 'گوگل میپس پر راستہ دیکھیں'
+        },
+        ar: {
+          dir: 'rtl',
+          nav_services: 'الخدمات',
+          nav_packages: 'الباقات',
+          nav_comparison: 'قبل وبعد',
+          nav_reviews: 'التقييمات',
+          nav_location: 'الموقع والخريطة',
+          nav_book: 'احجز موعداً',
+          hero_title: 'تصحيح الطلاء بلمعان المرآة وحماية السيراميك 9H',
+          hero_subtitle: 'يقدم استوديو Detailing Lab في كراتشي فحصاً صادقاً للطلاء، وإزالة الخدوش الدائرية، وأفلام الحماية PPF ذاتية الإصلاح، وطلاء السيراميك 9H المقاوم للماء.',
+          hero_cta_primary: 'احجز موعد العناية',
+          hero_cta_secondary: 'احسب سعر الباقة',
+          stat_cars: 'سيارة تمت العناية بها في كراتشي',
+          stat_ceramic: 'صلابة سيراميك معتمدة',
+          stat_rating: 'تقييم خرائط جوجل (120+ مراجعة)',
+          stat_honest: 'فحص أمين بدون مبيعات إضافية',
+          services_kicker: 'تخصصات الاستوديو',
+          services_title: 'حماية فائقة للسيارات اليومية والسيارات الفاخرة',
+          services_sub: 'تخضع كل سيارة لفحص سماكة الطلاء قبل البدء بالعمل لضمان أفضل نتيجة.',
+          packages_kicker: 'حاسبة الأسعار الشفافة',
+          packages_title: 'باقات التلميع والحماية',
+          packages_sub: 'اختر فئة سيارتك أدناه لتحديث الأسعار مباشرة بجميع العملات.',
+          size_sedan: 'سيدان / هاتشباك',
+          size_suv: 'دفع رباعي SUV (+20%)',
+          size_luxury: 'سيارة فاخرة / رياضية (+35%)',
+          pkg_est_price: 'السعر التقديري',
+          pkg_select_btn: 'اختر الباقة',
+          ba_kicker: 'اختبار نقاء الطلاء',
+          ba_title: 'طلاء باهت مقابل لمعان السيراميك 9H',
+          ba_desc: 'اسحب المؤشر لمقارنة الطلاء قبل وبعد التصحيح متعدد المراحل.',
+          book_kicker: 'احجز مساحتك',
+          book_title: 'احجز موعد التفصيل الخاص بك',
+          book_desc: 'أرسل تفاصيل سيارتك للحصول على ملخص الحجز وإرساله مباشرة عبر واتساب.',
+          form_name: 'الاسم الكامل',
+          form_phone: 'رقم الهاتف / واتساب',
+          form_vehicle: 'نوع السيارة والموديل والسنة',
+          form_category: 'فئة السيارة',
+          form_package: 'الباقة المختارة',
+          form_date: 'التاريخ المفضل (مغلق الجمعة)',
+          form_time: 'الوقت المفضل',
+          form_submit: 'تأكيد الموعد والإرسال عبر واتساب',
+          reviews_kicker: 'آراء العملاء على خرائط جوجل',
+          reviews_title: 'تقييم 4.6 ★ من أكثر من 120 عميلاً في كراتشي',
+          loc_kicker: 'زوروا مركزنا في كراتشي',
+          loc_title: 'موقع استوديو Detailing Lab والخريطة',
+          loc_directions: 'احصل على الاتجاهات في خرائط جوجل'
+        },
+        es: {
+          dir: 'ltr',
+          nav_services: 'Servicios',
+          nav_packages: 'Paquetes',
+          nav_comparison: 'Antes y Después',
+          nav_reviews: 'Reseñas',
+          nav_location: 'Ubicación',
+          nav_book: 'Reservar',
+          hero_title: 'Corrección de Pintura Espejo y Cerámico 9H',
+          hero_subtitle: 'Detailing Lab en Rashid Minhas Road ofrece diagnóstico honesto, eliminación de swirls, PPF autorreparable y recubrimiento cerámico 9H para el clima de Karachi.',
+          hero_cta_primary: 'Reservar Cita',
+          hero_cta_secondary: 'Calcular Precio',
+          stat_cars: 'Vehículos Detallados en Karachi',
+          stat_ceramic: 'Dureza Hidrofóbica Certificada',
+          stat_rating: 'Calificación Google (120+ Reseñas)',
+          stat_honest: 'Inspección Honesta Sin Sobrecargos',
+          services_kicker: 'Especialidades del Estudio',
+          services_title: 'Protección Especializada para Autos Diarios y Colección',
+          services_sub: 'Cada vehículo pasa por una medición de espesor antes de comenzar.',
+          packages_kicker: 'Calculadora Transparente',
+          packages_title: 'Paquetes de Detailing y Protección',
+          packages_sub: 'Selecciona la categoría de tu vehículo para actualizar los precios al instante.',
+          size_sedan: 'Sedán / Hatchback',
+          size_suv: 'SUV / 4x4 (+20%)',
+          size_luxury: 'Lujo / Deportivo (+35%)',
+          pkg_est_price: 'Precio Estimado',
+          pkg_select_btn: 'Elegir Paquete',
+          ba_kicker: 'Prueba de Claridad Óptica',
+          ba_title: 'Pintura con Swirls vs. Acabado Cerámico 9H',
+          ba_desc: 'Desliza el control para comparar la pintura oxidada con nuestro sellado cerámico.',
+          book_kicker: 'Reserva tu Bahía',
+          book_title: 'Agenda tu Turno de Detailing',
+          book_desc: 'Envía los datos de tu auto para preparar la confirmación por WhatsApp.',
+          form_name: 'Nombre Completo',
+          form_phone: 'Teléfono / WhatsApp',
+          form_vehicle: 'Marca, Modelo y Año',
+          form_category: 'Categoría del Vehículo',
+          form_package: 'Paquete Seleccionado',
+          form_date: 'Fecha Preferida (Cerrado Viernes)',
+          form_time: 'Horario de Entrega',
+          form_submit: 'Confirmar y Enviar por WhatsApp',
+          reviews_kicker: 'Opiniones en Google Maps',
+          reviews_title: 'Calificado 4.6 ★ por más de 120 Clientes',
+          loc_kicker: 'Visita Nuestro Estudio',
+          loc_title: 'Ubicación y Mapa en Karachi',
+          loc_directions: 'Cómo Llegar en Google Maps'
+        }
+      };
+
+      const langSelect = document.getElementById('lang-select');
+      langSelect.addEventListener('change', (e) => {
+        const lang = e.target.value;
+        const dict = I18N[lang] || I18N.en;
+        htmlEl.setAttribute('lang', lang);
+        htmlEl.setAttribute('dir', dict.dir);
+        document.querySelectorAll('[data-i18n]').forEach((el) => {
+          const key = el.getAttribute('data-i18n');
+          if (dict[key]) {
+            el.textContent = dict[key];
+          }
+        });
+      });
+
+      /* -------------------------------------------------------------------
+         6. Interactive Drag Before/After Comparison Slider
+         ------------------------------------------------------------------- */
+      const baSlider = document.getElementById('ba-slider');
+      const baBeforeLayer = document.getElementById('ba-before-layer');
+      const baDivider = document.getElementById('ba-divider');
+      let isDragging = false;
+      let baPercent = 50;
+
+      function setSliderPosition(percent) {
+        baPercent = Math.max(2, Math.min(98, percent));
+        baBeforeLayer.style.clipPath = `inset(0 ${100 - baPercent}% 0 0)`;
+        baDivider.style.left = `${baPercent}%`;
+        baSlider.setAttribute('aria-valuenow', String(Math.round(baPercent)));
+      }
+
+      function updateFromPointer(clientX) {
+        const rect = baSlider.getBoundingClientRect();
+        if (!rect.width) return;
+        const x = clientX - rect.left;
+        setSliderPosition((x / rect.width) * 100);
+      }
+
+      baSlider.addEventListener('pointerdown', (e) => {
+        isDragging = true;
+        baSlider.setPointerCapture(e.pointerId);
+        updateFromPointer(e.clientX);
+      });
+
+      baSlider.addEventListener('pointermove', (e) => {
+        if (!isDragging) return;
+        updateFromPointer(e.clientX);
+      });
+
+      baSlider.addEventListener('pointerup', () => { isDragging = false; });
+      baSlider.addEventListener('pointercancel', () => { isDragging = false; });
+
+      baSlider.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') { e.preventDefault(); setSliderPosition(baPercent - 5); }
+        if (e.key === 'ArrowRight') { e.preventDefault(); setSliderPosition(baPercent + 5); }
+      });
+
+      document.getElementById('ba-preset-before').addEventListener('click', () => setSliderPosition(85));
+      document.getElementById('ba-preset-split').addEventListener('click', () => setSliderPosition(50));
+      document.getElementById('ba-preset-after').addEventListener('click', () => setSliderPosition(15));
+
+      /* -------------------------------------------------------------------
+         7. Live Karachi Studio Open/Closed Status (Asia/Karachi UTC+5)
+         ------------------------------------------------------------------- */
+      function updateKarachiStudioStatus() {
+        try {
+          const now = new Date();
+          const pktString = now.toLocaleString('en-US', { timeZone: 'Asia/Karachi' });
+          const pkt = new Date(pktString);
+          const day = pkt.getDay(); // 0=Sun, 5=Fri
+          const minutes = pkt.getHours() * 60 + pkt.getMinutes();
+
+          let isOpen = false;
+          if (day >= 1 && day <= 4) {
+            isOpen = minutes >= (11 * 60) && minutes < (20 * 60 + 30);
+          } else if (day === 0 || day === 6) {
+            isOpen = minutes >= (10 * 60 + 30) && minutes < (20 * 60 + 30);
+          }
+
+          const statusEl = document.getElementById('studio-status-label');
+          const heroStatusEl = document.getElementById('hero-open-status');
+          if (statusEl) {
+            statusEl.textContent = isOpen ? 'OPEN NOW (PKT)' : (day === 5 ? 'CLOSED FRIDAY' : 'CURRENTLY CLOSED');
+            statusEl.className = isOpen
+              ? 'text-xs font-mono font-semibold text-emerald-600 dark:text-emerald-400 shrink-0'
+              : 'text-xs font-mono font-semibold text-amber-600 dark:text-amber-400 shrink-0';
+          }
+          if (heroStatusEl) {
+            heroStatusEl.textContent = isOpen ? 'Open Today till 8:30 PM' : (day === 5 ? 'Closed Fridays · Reopens Sat 10:30 AM' : 'Mon–Thu 11 AM · Sat–Sun 10:30 AM');
+          }
+        } catch (_) {
+          // Safe fallback if Intl timeZone is unavailable
+        }
+      }
+      updateKarachiStudioStatus();
+
+      /* -------------------------------------------------------------------
+         8. Smart Booking Form Validation + WhatsApp Dispatch Modal
+         ------------------------------------------------------------------- */
+      const dateInput = document.getElementById('book-date');
+      const nowLocal = new Date();
+      const todayIso = nowLocal.toISOString().split('T')[0];
+      dateInput.setAttribute('min', todayIso);
+      const defaultDate = new Date(nowLocal);
+      if (defaultDate.getDay() === 5) {
+        defaultDate.setDate(defaultDate.getDate() + 1);
+      }
+      dateInput.value = defaultDate.toISOString().split('T')[0];
+
+      const bookingForm = document.getElementById('booking-form');
+      const bookingError = document.getElementById('booking-error');
+      const bookingModal = document.getElementById('booking-modal');
+      const modalSummaryDetails = document.getElementById('modal-summary-details');
+      const whatsappDispatchLink = document.getElementById('whatsapp-dispatch-link');
+
+      bookingForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        bookingError.classList.add('hidden');
+
+        const fullName = document.getElementById('book-name').value.trim();
+        const phone = document.getElementById('book-phone').value.trim();
+        const vehicle = document.getElementById('book-vehicle').value.trim();
+        const categoryKey = bookCategorySelect.value;
+        const pkgName = bookPackageSelect.value;
+        const prefDate = dateInput.value;
+        const timeSlot = document.getElementById('book-time').value;
+
+        if (fullName.length < 2) {
+          bookingError.textContent = 'Please enter your full name.';
+          bookingError.classList.remove('hidden');
+          return;
+        }
+        if (phone.replace(/\D/g, '').length < 7) {
+          bookingError.textContent = 'Please enter a valid mobile or WhatsApp number.';
+          bookingError.classList.remove('hidden');
+          return;
+        }
+        if (vehicle.length < 2) {
+          bookingError.textContent = 'Please specify your vehicle make, model, and year.';
+          bookingError.classList.remove('hidden');
+          return;
+        }
+        if (!prefDate) {
+          bookingError.textContent = 'Please select your preferred appointment date.';
+          bookingError.classList.remove('hidden');
+          return;
+        }
+
+        // Warn if Friday selected
+        const chosenDay = new Date(prefDate + 'T12:00:00').getDay();
+        if (chosenDay === 5) {
+          bookingError.textContent = 'Detailing Lab is closed on Fridays. Please choose Saturday–Thursday.';
+          bookingError.classList.remove('hidden');
+          return;
+        }
+
+        const estTotal = summaryTotalPrice.textContent;
+        const categoryLabel = SIZE_MULTIPLIERS[categoryKey].label;
+
+        modalSummaryDetails.innerHTML = `
+          <div><span class="text-zinc-500">Client:</span> ${escapeHtml(fullName)} (${escapeHtml(phone)})</div>
+          <div><span class="text-zinc-500">Vehicle:</span> ${escapeHtml(vehicle)} · ${escapeHtml(categoryLabel)}</div>
+          <div><span class="text-zinc-500">Package:</span> ${escapeHtml(pkgName)}</div>
+          <div><span class="text-zinc-500">Slot:</span> ${escapeHtml(prefDate)} at ${escapeHtml(timeSlot)}</div>
+          <div class="pt-1 border-t border-zinc-200 dark:border-zinc-800 text-gold-600 dark:text-gold-400 font-semibold">Estimated Price: ${escapeHtml(estTotal)}</div>
+        `;
+
+        const waMessage = [
+          'Assalam-o-Alaikum Detailing Lab Karachi!',
+          'I would like to confirm a detailing slot:',
+          `• Name: ${fullName}`,
+          `• Contact: ${phone}`,
+          `• Vehicle: ${vehicle} (${categoryLabel})`,
+          `• Package: ${pkgName}`,
+          `• Preferred Slot: ${prefDate} at ${timeSlot}`,
+          `• Estimated Quote: ${estTotal}`
+        ].join('\n');
+
+        whatsappDispatchLink.href = `https://wa.me/923302689508?text=${encodeURIComponent(waMessage)}`;
+        bookingModal.classList.remove('hidden');
+      });
+
+      function escapeHtml(str) {
+        return str.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      }
+
+      document.getElementById('close-booking-modal').addEventListener('click', () => bookingModal.classList.add('hidden'));
+      document.getElementById('done-booking-modal').addEventListener('click', () => bookingModal.classList.add('hidden'));
+
+      /* -------------------------------------------------------------------
+         9. Privacy Policy Modal & Footer Year
+         ------------------------------------------------------------------- */
+      const privacyModal = document.getElementById('privacy-modal');
+      document.getElementById('open-privacy-btn').addEventListener('click', () => privacyModal.classList.remove('hidden'));
+      document.getElementById('close-privacy-modal').addEventListener('click', () => privacyModal.classList.add('hidden'));
+      document.getElementById('accept-privacy-btn').addEventListener('click', () => privacyModal.classList.add('hidden'));
+
+      document.getElementById('footer-year').textContent = String(new Date().getFullYear());
+
+      // Close modals on Escape or backdrop click
+      [bookingModal, privacyModal].forEach((modal) => {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) modal.classList.add('hidden');
+        });
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          bookingModal.classList.add('hidden');
+          privacyModal.classList.add('hidden');
+        }
+      });
+
+      // Initialize dynamic prices on load
+      updateAllPrices();
+    })();
+  </script>
+</body>
+</html>

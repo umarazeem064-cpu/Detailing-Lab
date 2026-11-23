@@ -1,0 +1,6 @@
+{
+  "name": "Detailing Lab — Car Detailing & 9H Ceramic Coating Studio",
+  "description": "Luxury automotive detailing, 9H ceramic coating, multi-stage paint correction, and self-healing PPF studio in Gulshan-e-Iqbal, Karachi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
